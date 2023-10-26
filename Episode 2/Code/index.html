@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+        //creates an h1 tag with text hello world with js in it and puts it in the heading container    
+        const headingJS =  document.createElement("h1");
+        headingJS.innerHTML = "hello world with js";
+        
+        //This code finds the element with id root in the html code
+        const rootJS = document.getElementById("root");
+        //This code puts the heading as the child element in the element with id root
+        rootJS.appendChild(headingJS);
+
+        </script>
+        
+    <script type="module"src="/app.js">
+      
+    </script>
+  </body>
+</html>
